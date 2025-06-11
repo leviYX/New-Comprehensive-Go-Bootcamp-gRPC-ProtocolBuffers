@@ -10,7 +10,7 @@ const (
 	googleURL = "https://www.google.com"
 )
 
-func main() {
+func main1() {
 	resp, err := myhttp.Get(baiduURL)
 	if err != nil {
 		fmt.Println("http get error:", err)
